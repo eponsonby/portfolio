@@ -15,6 +15,8 @@ export default function Resume() {
             To see a copy of my resume, <a
               href="https://drive.google.com/file/d/1SexfemshVXR_5fFLfybJ893sJcugZv-v/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
+            className="font-medium"
             >click here</a>
           </p>
         </div>

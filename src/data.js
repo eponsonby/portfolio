@@ -22,7 +22,7 @@ export const projects = [
   export const recommendations = [
     {
         quote: 
-        "Erin has been the consummate professional during our time working together. She took over her role from another analyst and successfully replaced her predecessor with no loss of quality by the overall project team. She was able to become well-versed on a highly visible software product which we market for external clients, to the point where she was able to serve as Product Owner when needed. The external client is known as a singularly challenging one, and Erin’s product knowledge, initiative, commitment to quality, and overall professionalism was critical to our project team receiving a 5 (out of 5)-star rating for the project. Erin Ponsonby’s performance exemplifies her dedication, focus, and perseverance. I would work with her on any project without hesitation.",
+        "Erin has been the consummate professional during our time working together. She successfully replaced her predecessor with no loss of quality by the overall project team. She was able to become well-versed on a highly visible software product, to the point where she was able to serve as Product Owner when needed. Erin’s product knowledge, initiative, commitment to quality, and overall professionalism was critical to our project team receiving a 5 (out of 5)-star rating for the project. Erin Ponsonby’s performance exemplifies her dedication, focus, and perseverance. I would work with her on any project without hesitation.",
         image: "/James-Greene.jpeg",
         name: "James Greene",
         company: "Excella",
@@ -30,7 +30,7 @@ export const projects = [
 
       {
         quote: 
-        "Erin is one of those people that you rarely have the pleasure of meeting. In the 10 years we’ve known each other, we’ve worked on several projects together. We started a student organization while in university, managed a conference, and teamed up to compete in an international competition (which we won!). In every situation, Erin has shown strong leadership, dedication and a knack for creative problem solving. Her exceptional analytical skills coupled well with her interpersonal communication skills make her an exceptional leader. She would be a huge asset to any team she joins. I hope we have the opportunity to work together again in the future.",
+        "Erin is one of those people that you rarely have the pleasure of meeting. In the 10 years we’ve known each other, we’ve worked on several projects together. We started a student organization while in university, managed a conference, and teamed up to compete in an international competition (which we won!). In every situation, Erin has shown strong leadership, dedication and a knack for creative problem solving. Her exceptional analytical skills coupled well with her interpersonal communication skills make her an exceptional leader. She would be a huge asset to any team she joins.",
         image: "/Jailene-Santana.jpeg",
         name: "Jailene Santana",
         company: "Thought for Food",

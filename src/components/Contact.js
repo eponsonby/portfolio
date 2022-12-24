@@ -33,13 +33,10 @@ export default function Contact() {
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=pearl+st+boulder+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-teal-800 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-teal-800 px-2 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -52,9 +49,9 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-yellow-400 leading-relaxed">
+              <p className="text-yellow-400 leading-relaxed">
                 erinponsonby@gmail.com
-              </a>
+              </p>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
@@ -70,10 +67,10 @@ export default function Contact() {
           <h2 className="text-gray-900 sm:text-4xl text-3xl mb-1 font-medium title-font">
             Work with Me
           </h2>
-          <p className="leading-relaxed mb-5 text-gray-900">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
+            {/* <p className="leading-relaxed mb-5 text-gray-900">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+              suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            </p> */}
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-800">
               Name
