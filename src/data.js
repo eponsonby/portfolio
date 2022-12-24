@@ -4,38 +4,22 @@ export const projects = [
       subtitle: "React, Ruby on Rails, Bootstrap",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://api.apify.com/v2/key-value-stores/o85tr5HRPH9qFQcM9/records/thetrailhead.herokuapp.com-scroll_original",
+      image: "/trailhead.gif",
       link: "https://thetrailhead.herokuapp.com/",
     },
     {
       title: "Sparkle Smash",
-      subtitle: "JavaScript",
+      subtitle: "JavaScript, Ruby on Rails",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image:"https://api.apify.com/v2/key-value-stores/NbtooQUI47jw0jSD0/records/sparkle-smash.herokuapp.com-scroll_lossy-comp",
+      image:"/sparkle.gif",
       link: "https://sparkle-smash.herokuapp.com/",
-    },
-    {
-      title: "WunderTrip",
-      subtitle: "React, Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://api.apify.com/v2/key-value-stores/lwo4bkSkdeUOZJRwb/records/wundertrip.herokuapp.com-scroll_original",
-      link: "https://wundertrip.herokuapp.com/",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
     },
   ];
 
   export const skills = ["JavaScript", "React", "Redux", "React Testing Library", "Ruby on Rails", "CSS", "TailwindCSS", "Bootstrap"]
 
-  export const testimonials = [
+  export const recommendations = [
     {
         quote: 
         "Erin has been the consummate professional during our time working together. She took over her role from another analyst and successfully replaced her predecessor with no loss of quality by the overall project team. She was able to become well-versed on a highly visible software product which we market for external clients, to the point where she was able to serve as Product Owner when needed. The external client is known as a singularly challenging one, and Erin’s product knowledge, initiative, commitment to quality, and overall professionalism was critical to our project team receiving a 5 (out of 5)-star rating for the project. Erin Ponsonby’s performance exemplifies her dedication, focus, and perseverance. I would work with her on any project without hesitation.",
