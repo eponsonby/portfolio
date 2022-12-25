@@ -13,7 +13,7 @@ export default function Recommendations() {
         <div className="flex flex-wrap m-4">
           {recommendations.map((recommendation) => (
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-teal-800 bg-opacity-60 p-8 rounded">
+              <div className="h-full bg-teal-800 bg-opacity-80 p-8 rounded">
                 <CommandLineIcon className="block w-8 text-white mb-4" />
                 <p className="leading-relaxed text-white mb-6">{recommendation.quote}</p>
                 <div className="inline-flex items-center">
