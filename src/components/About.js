@@ -27,9 +27,11 @@ export default function About() {
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
-                    className="object-cover object-center rounded"
+                    className="rounded-full flex-shrink-0 object-cover object-center"
                     alt="hero"
                     src="/IMG_3060.jpeg"
+                    width= "512px"
+                    height= "682px"
                     />
                 </div>
             </div>

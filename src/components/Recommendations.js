@@ -20,6 +20,8 @@ export default function Recommendations() {
                   <img
                     alt="recommendation"
                     src={recommendation.image}
+                    width="400px"
+                    height="400px"
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
