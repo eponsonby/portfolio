@@ -5,7 +5,7 @@ import { DocumentTextIcon } from "@heroicons/react/24/solid";
 export default function Resume() {
     const ResumeLink = ({className = '', children}) => (
     <a
-        href="https://drive.google.com/file/d/1SexfemshVXR_5fFLfybJ893sJcugZv-v/view?usp=sharing"
+        href="https://drive.google.com/file/d/1SexfemshVXR_5fFLfybJ893sJcugZv-v/view?usp=share_link"
         target="_blank"
       rel="noreferrer"
       className={'font-medium ' + className}
