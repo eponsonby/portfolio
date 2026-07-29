@@ -1,0 +1,40 @@
+.noteCard {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: var(--space-6);
+}
+
+.progressCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.borough {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.boroughHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.boroughName {
+  font-weight: 600;
+}
+
+.boroughPct {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+}
+
+.exampleTag {
+  font-size: 0.75rem;
+  color: var(--ink-dim);
+  text-align: right;
+  margin-top: var(--space-1);
+}

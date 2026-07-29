@@ -1,0 +1,21 @@
+.backLink {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+  text-decoration: none;
+  margin-bottom: var(--space-4);
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  margin-bottom: var(--space-6);
+}
+
+.body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--ink);
+  white-space: pre-line;
+}

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Baloo 2';
+  font-weight: 600 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('../assets/fonts/Baloo2-variable.woff2') format('woff2-variations');
+}
+
+/*
+  Light and dark are separate palettes tuned for contrast/mood on their own
+  ground, not inversions of each other. Both stay in the plum/lilac hue
+  family so switching themes doesn't feel like a different site.
+*/
+:root {
+  --bg: #f1ecff;
+  --bg-card: #ffffff;
+  --ink: #241d3d;
+  --ink-dim: #6c6289;
+  --line: rgba(36, 29, 61, 0.16);
+
+  --raspberry: #ea0046;
+  --mint: #1a8360;
+  --marigold: #d3811c;
+
+  --shadow-color: rgba(36, 29, 61, 0.18);
+
+  --font-display: 'Baloo 2', ui-rounded, system-ui, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  --radius-card: 28px 14px 28px 14px;
+  --radius-pill: 999px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1530;
+    --bg-card: #2c2244;
+    --ink: #f3eeff;
+    --ink-dim: #b3a8cc;
+    --line: rgba(243, 238, 255, 0.18);
+
+    --raspberry: #ff85ab;
+    --mint: #4fd1a5;
+    --marigold: #ffc670;
+
+    --shadow-color: rgba(0, 0, 0, 0.45);
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #1c1530;
+  --bg-card: #2c2244;
+  --ink: #f3eeff;
+  --ink-dim: #b3a8cc;
+  --line: rgba(243, 238, 255, 0.18);
+
+  --raspberry: #ff85ab;
+  --mint: #4fd1a5;
+  --marigold: #ffc670;
+
+  --shadow-color: rgba(0, 0, 0, 0.45);
+
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #f1ecff;
+  --bg-card: #ffffff;
+  --ink: #241d3d;
+  --ink-dim: #6c6289;
+  --line: rgba(36, 29, 61, 0.16);
+
+  --raspberry: #ea0046;
+  --mint: #1a8360;
+  --marigold: #d3811c;
+
+  --shadow-color: rgba(36, 29, 61, 0.18);
+
+  color-scheme: light;
+}

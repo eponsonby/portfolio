@@ -1,0 +1,15 @@
+.footer {
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.stitch {
+  border: none;
+  border-top: 3px dashed var(--line);
+  margin: 0 0 var(--space-5);
+}
+
+.footer p {
+  color: var(--ink-dim);
+  font-size: 0.85rem;
+}

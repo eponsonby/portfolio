@@ -1,0 +1,317 @@
+[
+  {
+    "id": "3a6679d0-f03e-8174-99b5-edf864330d12",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "type": "Book",
+    "status": "In Progress",
+    "rating": null,
+    "creator": "Gabrielle Zevin",
+    "genres": [
+      "American literature",
+      "nyt:combined-print-and-e-book-fiction=2022-07-24",
+      "New York Times bestseller"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-8174-99b5-edf864330d12.jpg",
+    "dateStarted": null,
+    "dateFinished": null,
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-816e-9329-f6a555443314",
+    "title": "The Vanishing Half",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Brit Bennett, Brit Bennett",
+    "genres": [
+      "African American",
+      "Twins",
+      "Fiction"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-816e-9329-f6a555443314.jpg",
+    "dateStarted": null,
+    "dateFinished": "2024-06-12",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-8150-89e4-ce5bfc44a654",
+    "title": "Packing for Mars",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Mary Roach",
+    "genres": [],
+    "coverUrl": "/covers/3a6679d0-f03e-8150-89e4-ce5bfc44a654.png",
+    "dateStarted": null,
+    "dateFinished": "2017-06-12",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-8120-947b-cf66f7ee2f8e",
+    "title": "The Lost Continent",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Bill Bryson",
+    "genres": [
+      "Cities and towns",
+      "Social life and customs",
+      "Description and travel"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-8120-947b-cf66f7ee2f8e.png",
+    "dateStarted": null,
+    "dateFinished": "2017-07-07",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81bc-b4ec-f0a3ac6d1e5b",
+    "title": "The High Mountains of Portugal",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Yann Martel",
+    "genres": [
+      "New York Times reviewed",
+      "Fiction",
+      "historical",
+      "general",
+      "Portugal"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81bc-b4ec-f0a3ac6d1e5b.jpg",
+    "dateStarted": null,
+    "dateFinished": "2018-01-12",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-8197-ba58-c6a4ec6be6b5",
+    "title": "Wild",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Cheryl Strayed, Isabel Ferrer, Carlos Milla, Anna Turró Armengol",
+    "genres": [
+      "Travel",
+      "American Authors",
+      "Biography"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-8197-ba58-c6a4ec6be6b5.jpg",
+    "dateStarted": null,
+    "dateFinished": "2018-10-05",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81d5-b677-dd84142da4c1",
+    "title": "Americanah",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Chimamanda Ngozi Adichie",
+    "genres": [
+      "Nigerians",
+      "Immigrants",
+      "Refugees"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81d5-b677-dd84142da4c1.png",
+    "dateStarted": null,
+    "dateFinished": "2019-02-23",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81b7-9915-c52b4917b6e5",
+    "title": "When Breath Becomes Air",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Paul Kalanithi",
+    "genres": [
+      "philosophy",
+      "Neurosurgeons",
+      "Cancer"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81b7-9915-c52b4917b6e5.jpg",
+    "dateStarted": null,
+    "dateFinished": "2019-04-04",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81b3-bb39-ea34a7381a62",
+    "title": "Following Atticus",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Tom Ryan",
+    "genres": [
+      "Anecdotes",
+      "Dog owners",
+      "Mountaineers"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81b3-bb39-ea34a7381a62.jpg",
+    "dateStarted": null,
+    "dateFinished": "2019-11-30",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81f1-b717-de8406f3d996",
+    "title": "Tiny beautiful things",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Cheryl Strayed",
+    "genres": [
+      "Miscellanea",
+      "Conduct of life",
+      "Long Now Manual for Civilization"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81f1-b717-de8406f3d996.png",
+    "dateStarted": null,
+    "dateFinished": "2019-12-30",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81dd-9256-ca37377fe97b",
+    "title": "The healing of America",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "T. R. Reid",
+    "genres": [
+      "Medical care",
+      "Health care reform",
+      "Medical policy"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81dd-9256-ca37377fe97b.jpg",
+    "dateStarted": null,
+    "dateFinished": "2024-02-05",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-811e-92a0-cfd18ed9a00a",
+    "title": "I Make Envy on Your Disco",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Eric Schnall",
+    "genres": [],
+    "coverUrl": "/covers/3a6679d0-f03e-811e-92a0-cfd18ed9a00a.png",
+    "dateStarted": null,
+    "dateFinished": "2026-02-24",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-8118-b39a-e102f513d6f1",
+    "title": "Everything Is Tuberculosis",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "John Green",
+    "genres": [],
+    "coverUrl": "/covers/3a6679d0-f03e-8118-b39a-e102f513d6f1.jpg",
+    "dateStarted": null,
+    "dateFinished": "2025-05-24",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-814b-8e67-e8cf59cd5893",
+    "title": "Slow Dance",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Rainbow Rowell",
+    "genres": [
+      "nyt:hardcover-fiction=2024-08-18",
+      "New York Times bestseller"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-814b-8e67-e8cf59cd5893.png",
+    "dateStarted": null,
+    "dateFinished": "2025-06-21",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-819f-9067-eacff0e98cad",
+    "title": "Book Lovers",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Emily Henry",
+    "genres": [
+      "romance",
+      "Fiction",
+      "contemporary"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-819f-9067-eacff0e98cad.jpg",
+    "dateStarted": null,
+    "dateFinished": "2025-09-21",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-8126-a794-ed7e1e71fffc",
+    "title": "The Midnight Library",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Matt Haig",
+    "genres": [
+      "nyt:combined-print-and-e-book-fiction=2020-10-18",
+      "New York Times bestseller",
+      "New York Times reviewed"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-8126-a794-ed7e1e71fffc.jpg",
+    "dateStarted": null,
+    "dateFinished": "2025-10-15",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a6679d0-f03e-81c6-b8a1-f5ab1485e37a",
+    "title": "People We Meet On Vacation",
+    "type": "Book",
+    "status": "Finished",
+    "rating": null,
+    "creator": "Emily Henry",
+    "genres": [
+      "nyt:combined-print-and-e-book-fiction=2021-05-30",
+      "New York Times bestseller",
+      "Fiction",
+      "romance",
+      "contemporary"
+    ],
+    "coverUrl": "/covers/3a6679d0-f03e-81c6-b8a1-f5ab1485e37a.jpg",
+    "dateStarted": null,
+    "dateFinished": "2026-05-21",
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
+    "id": "3a0679d0-f03e-8190-bbe2-eaad244f5b25",
+    "title": "All Fours",
+    "type": "Book",
+    "status": "Finished",
+    "rating": 4,
+    "creator": "Miranda July",
+    "genres": [
+      "American literature",
+      "nyt:hardcover-fiction=2024-06-02",
+      "New York Times bestseller"
+    ],
+    "coverUrl": "/covers/3a0679d0-f03e-8190-bbe2-eaad244f5b25.jpg",
+    "dateStarted": null,
+    "dateFinished": "2026-05-21",
+    "recommendedBy": null,
+    "notes": null
+  }
+]

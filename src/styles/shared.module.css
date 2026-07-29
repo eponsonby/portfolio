@@ -1,0 +1,64 @@
+.section {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 var(--space-6) var(--space-8);
+}
+
+.sectionNarrow {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 var(--space-6) var(--space-8);
+}
+
+.sectionTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-bottom: var(--space-4);
+}
+
+.pageHeader {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--space-7) var(--space-6) var(--space-6);
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+  margin-bottom: var(--space-3);
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  margin-bottom: var(--space-4);
+}
+
+.desc {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink-dim);
+  max-width: 60ch;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-5);
+}
+
+.cardGrid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-5);
+}
+
+@media (max-width: 860px) {
+  .cardGrid,
+  .cardGrid2 {
+    grid-template-columns: 1fr;
+  }
+}

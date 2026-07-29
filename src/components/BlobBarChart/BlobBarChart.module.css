@@ -1,0 +1,42 @@
+.chart {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.barSlot {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.barTrack {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bar {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  min-height: 6px;
+}
+
+.barLabel {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+  white-space: nowrap;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: var(--ink-dim);
+  font-weight: 600;
+}

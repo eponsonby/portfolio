@@ -1,0 +1,140 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: var(--space-8) var(--space-6) var(--space-7);
+}
+
+.hero::before,
+.hero::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero::before {
+  width: 340px;
+  height: 340px;
+  background: var(--marigold);
+  opacity: 0.22;
+  top: -160px;
+  right: -100px;
+}
+
+.hero::after {
+  width: 300px;
+  height: 300px;
+  background: var(--mint);
+  opacity: 0.18;
+  bottom: -140px;
+  left: -110px;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+  margin-bottom: var(--space-4);
+}
+
+.headline {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1.08;
+  margin-bottom: var(--space-5);
+}
+
+.headline mark {
+  background: var(--raspberry);
+  color: #fff;
+  padding: 0 var(--space-3);
+  border-radius: 14px 4px 14px 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.sub {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--ink-dim);
+  max-width: 46ch;
+}
+
+.hubCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  background: var(--bg-card);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-card);
+  box-shadow: 6px 6px 0 var(--shadow-color);
+  padding: var(--space-5);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hubCard:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 var(--shadow-color);
+}
+
+.hubCard h3 {
+  font-size: 1.3rem;
+}
+
+.hubCard p {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.hubCardLink {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--raspberry);
+}
+
+.widgetTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: var(--space-4);
+}
+
+.pillRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.readingTitle {
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.readingAuthor {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  margin-bottom: var(--space-4);
+}
+
+.readingPct {
+  font-size: 0.8rem;
+  color: var(--ink-dim);
+  margin-top: var(--space-2);
+}
+
+.milesStat {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  margin-bottom: var(--space-3);
+}

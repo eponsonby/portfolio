@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 var(--shadow-color);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.cardLink {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--raspberry);
+}

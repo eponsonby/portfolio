@@ -1,0 +1,11 @@
+.stitch {
+  border: none;
+  border-top: 3px dashed var(--line);
+  margin: 0 var(--space-6);
+}
+
+@media (max-width: 640px) {
+  .stitch {
+    margin: 0 var(--space-4);
+  }
+}

@@ -1,0 +1,130 @@
+.resumeCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  flex-wrap: wrap;
+}
+
+.resumeName {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: var(--space-1);
+}
+
+.resumeRole {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--ink);
+  background: var(--raspberry);
+  border-color: var(--raspberry);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  box-shadow: 3px 3px 0 var(--shadow-color);
+  flex: none;
+}
+
+.builtCard h3,
+.appCard h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-2);
+}
+
+.builtCard p,
+.appCard p {
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+  background: var(--line);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+}
+
+.addSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+  box-shadow: none;
+  min-height: 100px;
+  text-align: center;
+}
+
+.appCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.appName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.appLink {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--raspberry);
+  text-decoration: none;
+}
+
+.blogPreviewCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.blogPreviewCard:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 var(--shadow-color);
+}
+
+.blogPreviewTitle {
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.blogPreviewMeta {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+}
+
+.blogPreviewLink {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--raspberry);
+  flex: none;
+}

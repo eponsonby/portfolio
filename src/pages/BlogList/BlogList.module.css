@@ -1,0 +1,34 @@
+.postList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.postCard {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.postCard:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 var(--shadow-color);
+}
+
+.postTitle {
+  font-size: 1.2rem;
+  margin-bottom: var(--space-2);
+}
+
+.postMeta {
+  font-size: 0.8rem;
+  color: var(--ink-dim);
+  margin-bottom: var(--space-3);
+}
+
+.postExcerpt {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

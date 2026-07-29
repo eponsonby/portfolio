@@ -1,0 +1,47 @@
+.wipList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.wipCard {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.wipCover {
+  width: 48px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px 3px 6px 3px;
+  border: 1.5px solid var(--ink);
+  flex: none;
+}
+
+.wipCoverPlaceholder {
+  width: 48px;
+  height: 72px;
+  border-radius: 6px 3px 6px 3px;
+  border: 1.5px dashed var(--line);
+  flex: none;
+}
+
+.wipText {
+  min-width: 0;
+}
+
+.wipTitle {
+  font-size: 1rem;
+}
+
+.wipCreator {
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+}
+
+.wipMeta {
+  font-size: 0.8rem;
+  color: var(--ink-dim);
+  margin-top: var(--space-1);
+}
