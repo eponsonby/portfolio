@@ -88,9 +88,6 @@ export default function Home() {
                 <div>
                   <p className={styles.readingTitle}>{reading.title}</p>
                   {reading.creator && <p className={styles.readingAuthor}>{reading.creator}</p>}
-                  <p className={`${styles.readingPct} tabular-nums`}>
-                    {reading.status === 'In Progress' ? 'In progress' : 'Last finished'}
-                  </p>
                 </div>
               </div>
             ) : (
