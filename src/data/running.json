@@ -1,5 +1,13 @@
 [
   {
+    "id": 19522737640,
+    "name": "Wednesday Hash",
+    "date": "2026-07-29T19:20:22Z",
+    "distanceMiles": 6.6,
+    "movingTimeSeconds": 5305,
+    "paceSecondsPerMile": 804
+  },
+  {
     "id": 19488371989,
     "name": "Lunch Run",
     "date": "2026-07-27T12:50:28Z",

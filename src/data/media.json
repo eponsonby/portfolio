@@ -1,5 +1,19 @@
 [
   {
+    "id": "3ac679d0-f03e-8007-8c2c-cf0eecb82b52",
+    "title": "",
+    "type": null,
+    "status": null,
+    "rating": null,
+    "creator": null,
+    "genres": [],
+    "coverUrl": null,
+    "dateStarted": null,
+    "dateFinished": null,
+    "recommendedBy": null,
+    "notes": null
+  },
+  {
     "id": "3a6679d0-f03e-8174-99b5-edf864330d12",
     "title": "Tomorrow, and Tomorrow, and Tomorrow",
     "type": "Book",
