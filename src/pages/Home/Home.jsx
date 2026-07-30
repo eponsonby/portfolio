@@ -79,16 +79,14 @@ export default function Home() {
           <Card>
             <p className={styles.widgetTitle}>Currently reading</p>
             {reading ? (
-              <div className={styles.readingRow}>
+              <div className={styles.readingItem}>
                 {reading.coverUrl ? (
                   <img className={styles.readingCover} src={reading.coverUrl} alt={`${reading.title} cover`} />
                 ) : (
                   <div className={styles.readingCoverPlaceholder} aria-hidden="true" />
                 )}
-                <div>
-                  <p className={styles.readingTitle}>{reading.title}</p>
-                  {reading.creator && <p className={styles.readingAuthor}>{reading.creator}</p>}
-                </div>
+                <p className={styles.readingTitle}>{reading.title}</p>
+                {reading.creator && <p className={styles.readingAuthor}>{reading.creator}</p>}
               </div>
             ) : (
               <p className={styles.readingAuthor}>Nothing logged yet.</p>
