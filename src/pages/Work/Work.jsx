@@ -7,13 +7,13 @@ import { blogPosts } from '../../data/blogPosts.js';
 const thingsBuilt = [
   {
     title: 'Media Tracker',
-    desc: 'A Notion-backed book, movie, and show log with a Python CLI that pulls metadata from TMDb and Open Library.',
-    tags: ['Python', 'Notion API'],
+    desc: 'A Notion-backed book, movie, and TV show log with a Python CLI that pulls metadata from TMDb and Open Library.',
+    tags: ['Python', 'Notion API', 'Open Library API', 'TMDB API'],
   },
   {
-    title: 'This site',
-    desc: "The portfolio you're looking at right now — React front end, Notion as the data backend.",
-    tags: ['React', 'Vite'],
+    title: 'This fancy site',
+    desc: 'React front end, data lives in Notion.',
+    tags: ['React', 'Vite', 'Strava API', 'Ravelry API', 'Claude Code', 'Vercel'],
   },
 ];
 
@@ -33,9 +33,9 @@ export default function Work() {
   return (
     <>
       <div className={shared.pageHeader}>
-        <p className={shared.eyebrow}>Work</p>
+        <p className={shared.eyebrow}>PM'in</p>
         <h1 className={shared.title}>Work</h1>
-        <p className={shared.desc}>What I build for a living, and the tools I build it with.</p>
+        <p className={shared.desc}>Endlessly curious. Always tinkering.</p>
       </div>
 
       <section className={shared.sectionNarrow}>

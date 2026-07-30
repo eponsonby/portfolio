@@ -6,18 +6,18 @@ import styles from './Play.module.css';
 // Walking in NYC and Watching are hidden for now (not deleted — routes still
 // work, just off this hub) until there's real data behind them.
 const sections = [
-  { to: '/play/knitting', title: 'Knitting', desc: 'Current WIPs and finished projects.' },
-  { to: '/play/running', title: 'Running', desc: 'Miles, pace, and recent runs.' },
-  { to: '/play/reading', title: 'Reading', desc: "Books I'm reading, and books I've read." },
+  { to: '/play/knitting', title: 'Knitting', desc: "WIPs and things I've actually finished (gasp)." },
+  { to: '/play/running', title: 'Running', desc: 'recent runs and other fun numbers.' },
+  { to: '/play/reading', title: 'Reading', desc: "things I'm reading and things I've read." },
 ];
 
 export default function Play() {
   return (
     <>
       <div className={shared.pageHeader}>
-        <p className={shared.eyebrow}>Play</p>
-        <h1 className={shared.title}>Outside of work.</h1>
-        <p className={shared.desc}>The things that make the work better. Or at least more interesting to talk about.</p>
+        <p className={shared.eyebrow}>not work</p>
+        <h1 className={shared.title}>Play.</h1>
+        <p className={shared.desc}>The things that make the work better.</p>
       </div>
 
       <section className={shared.section}>

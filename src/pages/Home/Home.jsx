@@ -43,13 +43,13 @@ export default function Home() {
     <>
       <section className={styles.hero}>
         <div className={styles.heroInner}>
-          <p className={styles.eyebrow}>product manager, nyc</p>
+          <p className={styles.eyebrow}>NYC based product manager</p>
           <h1 className={styles.headline}>
             Work &amp;
             <br />
             <mark>play.</mark>
           </h1>
-          <p className={styles.sub}>One product manager, several spreadsheets' worth of hobbies.</p>
+          <p className={styles.sub}>One product manager, so many spreadsheets.</p>
         </div>
       </section>
 
@@ -57,17 +57,17 @@ export default function Home() {
         <div className={shared.cardGrid}>
           <Link to="/work" viewTransition className={styles.hubCard}>
             <h3>Work</h3>
-            <p>What I build for a living — resume, projects, apps I like, and a short-form blog.</p>
+            <p>What I do to exercise my brain (and for paychecks, I'm only human).</p>
             <span className={styles.hubCardLink}>Explore Work →</span>
           </Link>
           <Link to="/play" viewTransition className={styles.hubCard}>
             <h3>Play</h3>
-            <p>What I build for fun — knitting, running, yoga, media, and blocks walked around NYC.</p>
+            <p>By definition, just for the fun of it! Knitting, running, reading and attempting to walk every block in NYC.</p>
             <span className={styles.hubCardLink}>Explore Play →</span>
           </Link>
           <Link to="/about" viewTransition className={styles.hubCard}>
             <h3>About</h3>
-            <p>The person behind the spreadsheets.</p>
+            <p>Who is she?</p>
             <span className={styles.hubCardLink}>Read more →</span>
           </Link>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
           </Card>
 
           <Card className={styles.runCard}>
-            <p className={styles.widgetTitle}>This week: running</p>
+            <p className={styles.widgetTitle}>Probably Running</p>
             <div className={styles.runStat} role="img" aria-label={`${totalMiles.toFixed(1)} miles run this week`}>
               <p className={`${styles.runNumber} tabular-nums`}>{totalMiles.toFixed(1)}</p>
               <p className={styles.runLabel}>miles this week</p>

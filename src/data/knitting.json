@@ -244,10 +244,10 @@
     "name": "First Sweater",
     "patternName": "Bibliophile 2",
     "status": "In progress",
-    "progress": null,
+    "progress": 20,
     "started": null,
     "completed": null,
-    "rating": null,
+    "rating": 3,
     "url": "https://www.ravelry.com/projects/eponsonby/bibliophile-2",
     "photoUrl": "https://images4-f.ravelrycache.com/uploads/eponsonby/1157914224/IMG_3316_medium.jpeg"
   },

@@ -21,10 +21,9 @@ export default function About() {
       <section className={shared.section}>
         <div className={styles.layout}>
           <div className={styles.bio}>
-            {/* Placeholder bio — swap in your real story. */}
             <p>
-              I'm a product manager based in New York City. During the day I build software; outside of
-              it I build almost everything else — spreadsheets for my hobbies included.
+              Brooklyn based product manager. At work, I love to collaborate with kind, growth-minded folks to build software. Outside of it, you'll find me
+              running around the city, ostensibly for exercise, attempting to knit something way above my paygrade, and general shenanigan-ing.
             </p>
             <p>
               This site is where the two sides live side by side: the things I ship at work, and the
