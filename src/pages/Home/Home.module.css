@@ -116,6 +116,29 @@
   gap: var(--space-3);
 }
 
+.readingRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.readingCover {
+  width: 56px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 8px 3px 8px 3px;
+  border: 1.5px solid var(--ink);
+  flex: none;
+}
+
+.readingCoverPlaceholder {
+  width: 56px;
+  height: 84px;
+  border-radius: 8px 3px 8px 3px;
+  border: 1.5px dashed var(--line);
+  flex: none;
+}
+
 .readingTitle {
   font-weight: 600;
   margin-bottom: var(--space-1);
