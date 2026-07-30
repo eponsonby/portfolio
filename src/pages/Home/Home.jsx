@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import Card from '../../components/Card/Card.jsx';
 import ProgressPill from '../../components/ProgressPill/ProgressPill.jsx';
-import BlobBarChart from '../../components/BlobBarChart/BlobBarChart.jsx';
 import shared from '../../styles/shared.module.css';
 import styles from './Home.module.css';
 import { getMediaData } from '../../data/getMediaData.js';
@@ -34,16 +33,6 @@ export default function Home() {
   const start = weekStart(new Date());
   const thisWeek = runs.filter((r) => new Date(r.date) >= start);
   const totalMiles = thisWeek.reduce((sum, r) => sum + r.distanceMiles, 0);
-  const dayMiles = Array.from({ length: 7 }, (_, i) => {
-    const day = new Date(start);
-    day.setDate(day.getDate() + i);
-    const nextDay = new Date(day);
-    nextDay.setDate(nextDay.getDate() + 1);
-    return thisWeek
-      .filter((r) => new Date(r.date) >= day && new Date(r.date) < nextDay)
-      .reduce((sum, r) => sum + r.distanceMiles, 0);
-  });
-  const dayColors = ['var(--mint)', 'var(--marigold)', 'var(--mint)', 'var(--marigold)', 'var(--mint)', 'var(--raspberry)', 'var(--marigold)'];
 
   // On the needles: real in-progress Ravelry projects.
   const knittingWips = getKnittingData()
@@ -109,24 +98,27 @@ export default function Home() {
             )}
           </Card>
 
-          <Card>
+          <Card className={styles.runCard}>
             <p className={styles.widgetTitle}>This week: running</p>
-            <p className={`${styles.milesStat} tabular-nums`}>{totalMiles.toFixed(1)} mi</p>
-            <BlobBarChart values={dayMiles} colors={dayColors} caption="Mon → Sun" ariaLabel={`${totalMiles.toFixed(1)} miles this week, Monday through Sunday`} />
+            <div className={styles.runStat} role="img" aria-label={`${totalMiles.toFixed(1)} miles run this week`}>
+              <p className={`${styles.runNumber} tabular-nums`}>{totalMiles.toFixed(1)}</p>
+              <p className={styles.runLabel}>miles this week</p>
+            </div>
           </Card>
 
           <Card>
             <p className={styles.widgetTitle}>On the needles</p>
             {knittingWips.length > 0 ? (
-              <div className={styles.pillRow}>
+              <div className={styles.wipList}>
                 {knittingWips.map((wip) => (
-                  <div key={wip.label} className={styles.wipRow}>
+                  <div key={wip.label} className={styles.wipItem}>
                     {wip.photoUrl ? (
                       <img className={styles.wipPhoto} src={wip.photoUrl} alt={`${wip.label} photo`} />
                     ) : (
                       <div className={styles.wipPhotoPlaceholder} aria-hidden="true" />
                     )}
-                    <ProgressPill label={wip.label} pct={wip.pct} color={wip.color} labelWidth="110px" />
+                    <p className={styles.wipName}>{wip.label}</p>
+                    <ProgressPill pct={wip.pct} color={wip.color} />
                   </div>
                 ))}
               </div>
