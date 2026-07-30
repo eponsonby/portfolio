@@ -48,7 +48,7 @@ export default function Home() {
   // On the needles: real in-progress Ravelry projects.
   const knittingWips = getKnittingData()
     .filter((p) => p.status === 'In progress')
-    .map((p, i) => ({ label: p.name, pct: p.progress ?? 0, color: WIP_COLORS[i % WIP_COLORS.length] }));
+    .map((p, i) => ({ label: p.name, pct: p.progress ?? 0, color: WIP_COLORS[i % WIP_COLORS.length], photoUrl: p.photoUrl }));
 
   return (
     <>
@@ -56,9 +56,9 @@ export default function Home() {
         <div className={styles.heroInner}>
           <p className={styles.eyebrow}>product manager, nyc</p>
           <h1 className={styles.headline}>
-            Work stuff &amp;
+            Work &amp;
             <br />
-            <mark>play stuff.</mark>
+            <mark>play.</mark>
           </h1>
           <p className={styles.sub}>One product manager, several spreadsheets' worth of hobbies.</p>
         </div>
@@ -120,7 +120,14 @@ export default function Home() {
             {knittingWips.length > 0 ? (
               <div className={styles.pillRow}>
                 {knittingWips.map((wip) => (
-                  <ProgressPill key={wip.label} label={wip.label} pct={wip.pct} color={wip.color} labelWidth="110px" />
+                  <div key={wip.label} className={styles.wipRow}>
+                    {wip.photoUrl ? (
+                      <img className={styles.wipPhoto} src={wip.photoUrl} alt={`${wip.label} photo`} />
+                    ) : (
+                      <div className={styles.wipPhotoPlaceholder} aria-hidden="true" />
+                    )}
+                    <ProgressPill label={wip.label} pct={wip.pct} color={wip.color} labelWidth="110px" />
+                  </div>
                 ))}
               </div>
             ) : (
