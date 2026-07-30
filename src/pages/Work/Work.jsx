@@ -6,13 +6,13 @@ import { blogPosts } from '../../data/blogPosts.js';
 
 const thingsBuilt = [
   {
-    title: 'Media Tracker',
-    desc: 'A Notion-backed book, movie, and TV show log with a Python CLI that pulls metadata from TMDb and Open Library.',
+    title: 'Media tracker',
+    desc: 'A Notion backed book, movie, and TV show log with a Python CLI that pulls metadata from TMDB and Open Library.',
     tags: ['Python', 'Notion API', 'Open Library API', 'TMDB API'],
   },
   {
     title: 'This fancy site',
-    desc: 'React front end, data lives in Notion.',
+    desc: 'React frontend, data in Notion, various APIs.',
     tags: ['React', 'Vite', 'Strava API', 'Ravelry API', 'Claude Code', 'Vercel'],
   },
 ];

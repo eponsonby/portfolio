@@ -57,12 +57,12 @@ export default function Home() {
         <div className={shared.cardGrid}>
           <Link to="/work" viewTransition className={styles.hubCard}>
             <h3>Work</h3>
-            <p>What I do to exercise my brain (and for paychecks, I'm only human).</p>
+            <p>What I do to exercise my brain during the day (and for paychecks, I'm only human).</p>
             <span className={styles.hubCardLink}>Explore Work →</span>
           </Link>
           <Link to="/play" viewTransition className={styles.hubCard}>
             <h3>Play</h3>
-            <p>By definition, just for the fun of it! Knitting, running, reading and attempting to walk every block in NYC.</p>
+            <p>Knitting, running, reading and attempting to walk every block in NYC.</p>
             <span className={styles.hubCardLink}>Explore Play →</span>
           </Link>
           <Link to="/about" viewTransition className={styles.hubCard}>
