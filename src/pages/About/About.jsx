@@ -25,10 +25,6 @@ export default function About() {
               Brooklyn based product manager. At work, I love to collaborate with kind, growth-minded folks to build software. Outside of it, you'll find me
               running around the city, ostensibly for exercise, attempting to knit something way above my paygrade, and general shenanigan-ing.
             </p>
-            <p>
-              This site is where the two sides live side by side: the things I ship at work, and the
-              things I make, walk, read, and knit when I'm not working.
-            </p>
           </div>
 
           <Card className={styles.sidebar}>

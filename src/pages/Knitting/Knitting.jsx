@@ -30,7 +30,7 @@ export default function Knitting() {
       <div className={shared.pageHeader}>
         <p className={shared.eyebrow}>Play / Knitting</p>
         <h1 className={shared.title}>Knitting</h1>
-        <p className={shared.desc}>Current WIPs and finished objects.</p>
+        <p className={shared.desc}>WIPs and finished objects.</p>
       </div>
 
       {inProgress.length > 0 && (
