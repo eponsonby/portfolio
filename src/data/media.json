@@ -315,7 +315,7 @@
     "title": "All Fours",
     "type": "Book",
     "status": "Finished",
-    "rating": 4,
+    "rating": null,
     "creator": "Miranda July",
     "genres": [
       "American literature",

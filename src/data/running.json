@@ -1,5 +1,13 @@
 [
   {
+    "id": 19575178502,
+    "name": "Central Park Run 🛝🌲🌳",
+    "date": "2026-08-02T13:57:09Z",
+    "distanceMiles": 7.66,
+    "movingTimeSeconds": 5528,
+    "paceSecondsPerMile": 722
+  },
+  {
     "id": 19522737640,
     "name": "Wednesday Hash",
     "date": "2026-07-29T19:20:22Z",
