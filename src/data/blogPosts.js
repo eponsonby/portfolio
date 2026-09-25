@@ -31,7 +31,7 @@ export const blogPosts = [
       \`localhost\` is a hostname that refers to your own computer. It (usually, don't come after me) points to the IPv4 address \`127.0.0.1\`, which is a special IP address reserved for exactly this purpose.
 
       ## Uhh cool story. Why should I care?
-      When you're building something on your computer (a website, an app) you can run it without it ever touching the internet. Often, you can visit it at something like \`http://localhost:3000\`. Your browser asks for local host. Your computer is like “oh I'm talking to myself". And then serves up the app you're running locally. Nobody else can see it so it's like your own little private sandbox. 
+      When you're building something on your computer (a website, an app) you can run it without it ever touching the internet. Often, you can visit it at something like \`http://localhost:3000\`. Your browser asks for \`localhost\`. Your computer is like “oh I'm talking to myself". And then serves up the app you're running locally. Nobody else can see it so it's like your own little private sandbox. 
 
       The \`:3000\` is the port. If the hostname (i.e. \`localhost\`) is the address of your barely-held-together-with-duct-tape Bushwick apartment building, the port is your unit number. Your computer could run lots of different apps or services simultaneously, each on its own port (\`localhost:3000\`, \`localhost:8000\`, etc).
       `
