@@ -18,6 +18,7 @@
   line-height: 1.75;
   color: var(--ink);
   white-space: pre-line;
+  margin-bottom: var(--space-4);
 }
 
 .heading {

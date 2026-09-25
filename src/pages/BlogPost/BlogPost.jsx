@@ -3,6 +3,14 @@ import shared from '../../styles/shared.module.css';
 import styles from './BlogPost.module.css';
 import { blogPosts } from '../../data/blogPosts.js';
 
+function renderInline(text) {
+  return text
+    .split(/(`[^`]+`)/g)
+    .map((part, i) =>
+      part.startsWith('`') ? <code key={i}>{part.slice(1, -1)}</code> : part
+    );
+}
+
 export default function BlogPost() {
   const { slug } = useParams();
   const post = blogPosts.find((p) => p.slug === slug);
@@ -32,21 +40,21 @@ export default function BlogPost() {
         if (!trimmed.startsWith('## ')) {
           return [
             <p key={i} className={styles.body}>
-              {trimmed}
+              {renderInline(trimmed)}
             </p>,
           ];
         }
         const [headingLine, ...rest] = trimmed.split('\n');
         const elements = [
           <h2 key={`${i}-heading`} className={styles.heading}>
-            {headingLine.slice(3)}
+            {renderInline(headingLine.slice(3))}
           </h2>,
         ];
         const restText = rest.join('\n').trim();
         if (restText) {
           elements.push(
             <p key={`${i}-body`} className={styles.body}>
-              {restText}
+              {renderInline(restText)}
             </p>
           );
         }

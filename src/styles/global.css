@@ -48,6 +48,15 @@ button {
   color: inherit;
 }
 
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  padding: 0.15em 0.5em;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--mint) 20%, var(--bg-card));
+  color: color-mix(in srgb, var(--mint) 65%, var(--ink));
+}
+
 /* Tabular numerals wherever digits line up (stats, progress labels) */
 .tabular-nums {
   font-variant-numeric: tabular-nums;
