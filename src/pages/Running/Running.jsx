@@ -1,7 +1,8 @@
 import Card from '../../components/Card/Card.jsx';
 import shared from '../../styles/shared.module.css';
 import styles from './Running.module.css';
-import { getRunningData } from '../../data/getRunningData.js';
+import runs from '../../data/running.json';
+import { weekStart } from '../../utils.js';
 
 function formatPace(secPerMile) {
   if (secPerMile == null) return '—';
@@ -24,18 +25,7 @@ function formatMonthYear(isoStr) {
   return new Date(isoStr).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
-// Monday-start of the week containing `date`.
-function weekStart(date) {
-  const d = new Date(date);
-  const day = d.getDay();
-  const diff = (day === 0 ? -6 : 1) - day;
-  d.setDate(d.getDate() + diff);
-  d.setHours(0, 0, 0, 0);
-  return d;
-}
-
 export default function Running() {
-  const runs = getRunningData();
   const sorted = [...runs].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   const start = weekStart(new Date());

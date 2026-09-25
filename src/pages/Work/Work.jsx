@@ -17,16 +17,6 @@ const thingsBuilt = [
   },
 ];
 
-// Flip to true whenever you're ready to show this section again.
-const SHOW_APPS_I_LIKE = false;
-
-// Placeholder — swap for the apps you actually reach for.
-const appsILike = [
-  { name: 'Notion', url: 'https://notion.so', blurb: 'Runs basically every list in my life, including this site’s data.' },
-  { name: 'Linear', url: 'https://linear.app', blurb: 'The bar every other project tracker gets measured against.' },
-  { name: 'Are.na', url: 'https://are.na', blurb: 'A quiet place to collect things without an algorithm getting involved.' },
-];
-
 export default function Work() {
   const latestPost = blogPosts[0];
 
@@ -69,25 +59,6 @@ export default function Work() {
           <Card className={`${styles.builtCard} ${styles.addSlot}`}>More coming soon</Card>
         </div>
       </section>
-
-      {SHOW_APPS_I_LIKE && (
-        <section className={shared.section}>
-          <p className={shared.sectionTitle}>Apps I like</p>
-          <div className={shared.cardGrid}>
-            {appsILike.map((app) => (
-              <Card key={app.name} className={styles.appCard}>
-                <div className={styles.appName}>
-                  <h3>{app.name}</h3>
-                  <a className={styles.appLink} href={app.url} target="_blank" rel="noreferrer">
-                    Visit ↗
-                  </a>
-                </div>
-                <p>{app.blurb}</p>
-              </Card>
-            ))}
-          </div>
-        </section>
-      )}
 
       <section className={shared.sectionNarrow}>
         <p className={shared.sectionTitle}>From the blog</p>

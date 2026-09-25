@@ -1,9 +1,9 @@
 import shared from '../../styles/shared.module.css';
 import MediaGrid from '../../components/MediaGrid/MediaGrid.jsx';
-import { getMediaData } from '../../data/getMediaData.js';
+import media from '../../data/media.json';
 
 export default function Watching() {
-  const watched = getMediaData().filter((item) => item.type === 'Movie' || item.type === 'Show');
+  const watched = media.filter((item) => item.type === 'Movie' || item.type === 'Show');
 
   return (
     <>

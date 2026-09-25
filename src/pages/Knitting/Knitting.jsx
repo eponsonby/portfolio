@@ -2,7 +2,8 @@ import Card from '../../components/Card/Card.jsx';
 import ProgressPill from '../../components/ProgressPill/ProgressPill.jsx';
 import shared from '../../styles/shared.module.css';
 import styles from './Knitting.module.css';
-import { getKnittingData } from '../../data/getKnittingData.js';
+import projects from '../../data/knitting.json';
+import { sortByRecent } from '../../utils.js';
 
 function formatDate(dateStr) {
   if (!dateStr) return null;
@@ -10,18 +11,7 @@ function formatDate(dateStr) {
   return new Date(Number(year), Number(month) - 1).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
-// Most recent first (by the given field); items missing that field sort last.
-function sortByRecent(items, field) {
-  return [...items].sort((a, b) => {
-    if (!a[field] && !b[field]) return 0;
-    if (!a[field]) return 1;
-    if (!b[field]) return -1;
-    return b[field].localeCompare(a[field]);
-  });
-}
-
 export default function Knitting() {
-  const projects = getKnittingData();
   const inProgress = sortByRecent(projects.filter((p) => p.status === 'In progress'), 'started');
   const finished = sortByRecent(projects.filter((p) => p.status === 'Finished'), 'completed');
 

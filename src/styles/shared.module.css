@@ -50,15 +50,8 @@
   gap: var(--space-5);
 }
 
-.cardGrid2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-5);
-}
-
 @media (max-width: 860px) {
-  .cardGrid,
-  .cardGrid2 {
+  .cardGrid {
     grid-template-columns: 1fr;
   }
 }

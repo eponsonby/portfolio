@@ -2,7 +2,8 @@ import Card from '../../components/Card/Card.jsx';
 import shared from '../../styles/shared.module.css';
 import styles from './Reading.module.css';
 import MediaGrid from '../../components/MediaGrid/MediaGrid.jsx';
-import { getMediaData } from '../../data/getMediaData.js';
+import media from '../../data/media.json';
+import { sortByRecent } from '../../utils.js';
 
 // Notion date-only strings ("2026-05-24") parse as UTC midnight if handed
 // straight to `new Date()`, which can shift a day off in local time — build
@@ -13,17 +14,8 @@ function formatDate(dateStr) {
   return new Date(year, month - 1, day).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
-function sortByRecent(items, field) {
-  return [...items].sort((a, b) => {
-    if (!a[field] && !b[field]) return 0;
-    if (!a[field]) return 1;
-    if (!b[field]) return -1;
-    return b[field].localeCompare(a[field]);
-  });
-}
-
 export default function Reading() {
-  const books = getMediaData().filter((item) => item.type === 'Book');
+  const books = media.filter((item) => item.type === 'Book');
   const inProgress = sortByRecent(books.filter((b) => b.status === 'In Progress'), 'dateStarted');
   const finished = books.filter((b) => b.status === 'Finished');
 

@@ -3,39 +3,29 @@ import Card from '../../components/Card/Card.jsx';
 import ProgressPill from '../../components/ProgressPill/ProgressPill.jsx';
 import shared from '../../styles/shared.module.css';
 import styles from './Home.module.css';
-import { getMediaData } from '../../data/getMediaData.js';
-import { getRunningData } from '../../data/getRunningData.js';
-import { getKnittingData } from '../../data/getKnittingData.js';
+import media from '../../data/media.json';
+import runs from '../../data/running.json';
+import knitting from '../../data/knitting.json';
+import { weekStart } from '../../utils.js';
 
 const WIP_COLORS = ['var(--raspberry)', 'var(--mint)', 'var(--marigold)'];
-
-// Monday-start of the week containing `date` — matches Running.jsx.
-function weekStart(date) {
-  const d = new Date(date);
-  const day = d.getDay();
-  const diff = (day === 0 ? -6 : 1) - day;
-  d.setDate(d.getDate() + diff);
-  d.setHours(0, 0, 0, 0);
-  return d;
-}
 
 export default function Home() {
   // Currently reading: the in-progress book, or fall back to the most
   // recently finished one so this widget is never just empty.
-  const books = getMediaData().filter((b) => b.type === 'Book');
+  const books = media.filter((b) => b.type === 'Book');
   const reading =
     books.find((b) => b.status === 'In Progress') ??
     [...books].filter((b) => b.dateFinished).sort((a, b) => b.dateFinished.localeCompare(a.dateFinished))[0] ??
     null;
 
   // This week's running, Monday-start, same logic as Running.jsx.
-  const runs = getRunningData();
   const start = weekStart(new Date());
   const thisWeek = runs.filter((r) => new Date(r.date) >= start);
   const totalMiles = thisWeek.reduce((sum, r) => sum + r.distanceMiles, 0);
 
   // On the needles: real in-progress Ravelry projects.
-  const knittingWips = getKnittingData()
+  const knittingWips = knitting
     .filter((p) => p.status === 'In progress')
     .map((p, i) => ({ label: p.name, pct: p.progress ?? 0, color: WIP_COLORS[i % WIP_COLORS.length], photoUrl: p.photoUrl }));
 

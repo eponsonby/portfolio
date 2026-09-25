@@ -35,14 +35,12 @@
   flex: none;
 }
 
-.builtCard h3,
-.appCard h3 {
+.builtCard h3 {
   font-size: 1.1rem;
   margin-bottom: var(--space-2);
 }
 
-.builtCard p,
-.appCard p {
+.builtCard p {
   color: var(--ink-dim);
   font-size: 0.9rem;
   line-height: 1.5;
@@ -74,26 +72,6 @@
   box-shadow: none;
   min-height: 100px;
   text-align: center;
-}
-
-.appCard {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-}
-
-.appName {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2);
-}
-
-.appLink {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--raspberry);
-  text-decoration: none;
 }
 
 .blogPreviewCard {
