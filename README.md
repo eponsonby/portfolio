@@ -1,11 +1,21 @@
-# React + Vite
+# erin-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio site (Work / Play / About) built with React + Vite.
 
-Currently, two official plugins are available:
+## Getting started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm run dev
+```
+
+Starts the Vite dev server (prints the localhost URL, usually `:5173`).
+
+Other commands:
+
+- `npm run fetch-data` — re-pulls fresh data from Notion, Ravelry, and Strava into the JSON files the pages read from. Not needed just to start the server, only when you want current data.
+- `npm install` — if it's been a while since you last opened this repo and deps might be stale.
+- `npm run build` — production build (also runs `fetch-data` first, via `prebuild`).
+- `npm run lint` — Oxlint.
 
 ## React Compiler
 

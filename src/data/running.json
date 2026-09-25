@@ -1,5 +1,37 @@
 [
   {
+    "id": 19853320686,
+    "name": "Central Park run",
+    "date": "2026-08-22T10:43:06Z",
+    "distanceMiles": 3.63,
+    "movingTimeSeconds": 2692,
+    "paceSecondsPerMile": 741
+  },
+  {
+    "id": 19787551295,
+    "name": "French Hash 🇫🇷",
+    "date": "2026-08-17T19:28:10Z",
+    "distanceMiles": 3.11,
+    "movingTimeSeconds": 2064,
+    "paceSecondsPerMile": 663
+  },
+  {
+    "id": 19668773890,
+    "name": "First 5K since 2022!!",
+    "date": "2026-08-09T09:06:05Z",
+    "distanceMiles": 2.96,
+    "movingTimeSeconds": 1725,
+    "paceSecondsPerMile": 584
+  },
+  {
+    "id": 19621007244,
+    "name": "Wednesday Hash",
+    "date": "2026-08-05T19:24:29Z",
+    "distanceMiles": 2.07,
+    "movingTimeSeconds": 1555,
+    "paceSecondsPerMile": 752
+  },
+  {
     "id": 19575178502,
     "name": "Central Park Run 🛝🌲🌳",
     "date": "2026-08-02T13:57:09Z",
