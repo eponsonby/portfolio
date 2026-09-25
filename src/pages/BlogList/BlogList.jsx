@@ -16,7 +16,7 @@ export default function BlogList() {
       <section className={shared.sectionNarrow}>
         <div className={styles.postList}>
           {blogPosts.map((post) => (
-            <Card key={post.slug} as={Link} to={`/work/blog/${post.slug}`} viewTransition className={styles.postCard}>
+            <Card key={post.slug} as={Link} to={`/blog/${post.slug}`} viewTransition className={styles.postCard}>
               <h2 className={styles.postTitle}>{post.title}</h2>
               <p className={styles.postMeta}>{post.date}</p>
               <p className={styles.postExcerpt}>{post.excerpt}</p>

@@ -5,7 +5,9 @@ import styles from './Nav.module.css';
 const links = [
   { to: '/work', label: 'Work' },
   { to: '/play', label: 'Play' },
-  { to: '/about', label: 'About' },
+  { to: '/blog', label: 'Blog'},
+  { to: '/about', label: 'About' }
+
 ];
 
 function SunIcon() {

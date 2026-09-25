@@ -60,16 +60,6 @@ export default function Work() {
         </div>
       </section>
 
-      <section className={shared.sectionNarrow}>
-        <p className={shared.sectionTitle}>From the blog</p>
-        <Card as={Link} to={`/work/blog/${latestPost.slug}`} viewTransition className={styles.blogPreviewCard}>
-          <div>
-            <p className={styles.blogPreviewTitle}>{latestPost.title}</p>
-            <p className={styles.blogPreviewMeta}>{latestPost.date}</p>
-          </div>
-          <span className={styles.blogPreviewLink}>Read the blog →</span>
-        </Card>
-      </section>
     </>
   );
 }

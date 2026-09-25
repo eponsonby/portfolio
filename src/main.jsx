@@ -24,8 +24,6 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
 
           <Route path="work" element={<Work />} />
-          <Route path="work/blog" element={<BlogList />} />
-          <Route path="work/blog/:slug" element={<BlogPost />} />
 
           <Route path="play" element={<Play />} />
           <Route path="play/knitting" element={<Knitting />} />
@@ -33,6 +31,9 @@ createRoot(document.getElementById('root')).render(
           <Route path="play/nyc-blocks" element={<NycBlocks />} />
           <Route path="play/reading" element={<Reading />} />
           <Route path="play/watching" element={<Watching />} />
+          
+          <Route path="blog" element={<BlogList />} />
+          <Route path="blog/:slug" element={<BlogPost />} />
 
           <Route path="about" element={<About />} />
 
